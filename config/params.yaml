@@ -1,0 +1,11 @@
+lidar_sim_node:
+  ros__parameters:
+    num_beams: 37          # 180 degree field of view, 5 degrees per beam
+    range_max: 3.0
+    publish_rate_hz: 10.0
+avoidance_node:
+  ros__parameters:
+    stop_distance: 1.2
+    clear_distance: 1.6
+    forward_speed: 1.5
+    turn_speed: 1.5
